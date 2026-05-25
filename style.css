@@ -49,17 +49,12 @@ body{
 .stats{
 
     display:grid;
-
     grid-template-columns:repeat(4,1fr);
-
     border-bottom:1px solid #222;
 }
 .stat-box{
-
     padding:40px;
-
     text-align:center;
-
     border-right:1px solid #222;
 }
 /*pseudo selector hai its for like neatness to remove the righmost boardline*/
@@ -67,19 +62,14 @@ body{
     border-right:none;
 }
 .stat-box h1{
-
     font-size:52px;
-
     font-weight:500;
-
     margin-bottom:10px;
 }
 .stat-box p{
 
     color:#666;
-
     letter-spacing:3px;
-
     font-size:12px;
 }
 .filters{
